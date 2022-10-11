@@ -10,7 +10,7 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>Open  
-            <a className="sourceCode" href="https://github.com/IveryMikaila/dictionary-app"> Source Code </a> by Mikaila Ivery ♡</small>
+            <a className="sourceCode" target="_blank" href="https://github.com/IveryMikaila/dictionary-app"> Source Code </a> by Mikaila Ivery ♡</small>
         </footer>
       </div>
     </div>

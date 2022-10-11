@@ -5,14 +5,12 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-Mikaila's Dictionary
-        </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Mikaila</small>
+          <small>Open  
+            <a className="sourceCode" href="https://github.com/IveryMikaila/dictionary-app"> Source Code </a> by Mikaila Ivery ♡</small>
         </footer>
       </div>
     </div>

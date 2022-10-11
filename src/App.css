@@ -2,16 +2,76 @@
 --themecolor1:#ffa781;
 --themecolor2:#5b0e2d;
 }
-
-
+@font-face {
+    font-family:themefont ;
+    src: url("./ArchivoBlack-Regular.ttf");
+}
 
 .App{
     text-align: center;
     background-color:var(--themecolor2);
     color: white;
-    max-width: 75%;
+    max-width: 60%;
     margin: 0 auto;
     margin-top: 2em;
     padding: 20px;
     border-radius: 10px;
+}
+
+.appTitle{
+    font-family:"themefont";
+}
+.searchBar{
+    border: none;
+    width: 60%;
+    border-radius: 10px;
+}
+.hint{
+    color: gainsboro;
+    font-size: 10px;
+}
+.mainWord{
+    color: var(--themecolor1);
+    font-family: "themefont";
+}
+
+.Phonetic a{
+    font-size: 11px;
+    color: var(--themecolor1) !important;
+    text-decoration: none;   
+    border: 1px solid var(--themecolor1);
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 4px;
+transition: ease-in all 10ms;}
+
+.Phonetic a:hover{
+    font-size: 13px;
+    border:1px solid white;
+    color: white !important;
+}
+
+.Meaning h3{
+    color: white;
+    
+}
+.MeaningContainer{
+    background-color: var(--themecolor1);
+    color: var(--themecolor2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.Photos img{
+    margin-bottom: 20px;
+}
+.sourceCode{
+    color: var(--themecolor1);
+    text-decoration: none;
+    transition: all ease 1s;
+}
+.sourceCode:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
 }

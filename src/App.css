@@ -37,6 +37,9 @@
     color: var(--themecolor1);
     font-family: "themefont";
 }
+.Phonetic .text{
+    color: gainsboro ;
+}
 
 .Phonetic a{
     font-size: 11px;

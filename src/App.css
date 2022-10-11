@@ -16,6 +16,9 @@
     margin-top: 2em;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: -13px -4px 37px 11px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -13px -4px 37px 11px rgba(0,0,0,0.47);
+    -moz-box-shadow: -13px -4px 37px 11px rgba(0,0,0,0.47);
 }
 
 .appTitle{

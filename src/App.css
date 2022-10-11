@@ -86,6 +86,6 @@ transition: ease-in all 10ms;}
 
 @media (max-width: 600px) {
     .App{
-        width: 90%;
+        width: 100vw;
     }
 }

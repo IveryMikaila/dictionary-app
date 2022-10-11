@@ -56,6 +56,7 @@ transition: ease-in all 10ms;}
     
 }
 .MeaningContainer{
+    text-align: left;
     background-color: var(--themecolor1);
     color: var(--themecolor2);
     padding: 10px;

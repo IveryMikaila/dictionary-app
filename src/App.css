@@ -41,7 +41,7 @@
     text-decoration: none;   
     border: 1px solid var(--themecolor1);
     border-radius: 20px;
-    padding: 6px;
+    padding: 2px 6px;
     margin-right: 4px;
 transition: ease-in all 10ms;}
 
